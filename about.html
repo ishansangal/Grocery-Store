@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+ 
+</script>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+	<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					Agriculture Products</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="navbar.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="ourproducts.html">Our Products</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="contact.html">
+					<span class="glyphicon glyphicon-user"></span>
+					Contact Us</a></li>
+				<li><a href="login.html">
+					<span class="glyphicon glyphicon-log-in"></span>
+					Login</a></li>
+			</ul>
+		</div>
+	</nav>
+ <section class="about_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="about.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <hr>
+              <h2>
+                About Our Agriculture Products Website
+              </h2>
+            </div>
+            <p>
+               In this website there are various products for agriculture including fertilizer,pesticide,sprayer,Machinery and also it work as a guide like if you face any problem in using any product you simply contact us and we'll reach you and also after login you can became a regular customer of our website which will be more beneficiary for you.
+            </p>
+            <button id="hide">Read less</button>
+            <button id="show">Read more</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="info_section layout_padding">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          Agriculture Products
+        </h2>
+      </div>
+      <div class="info_contact">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="">
+              <img src="images/location.png" alt="">
+              <span>
+                Agriculture Products
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="">
+              <img src="images/call.png" alt="">
+              <span>
+                Call : +01234567890
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="">
+              <img src="images/mail.png" alt="">
+              <span>
+                Agricultureproducts@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="text" placeholder="Enter your email">
+              <button>
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="info_social">
+            <div>
+              <a href="">
+                <img src="images/facebook-logo-button.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="images/twitter-logo-button.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+    <section class="container-fluid footer_section">
+    <p>
+      &copy; <span id="displayYear"></span> All Agriculture Products
+      <a href="https://html.design/">Here</a>
+    </p>
+  </section>
+   
+</body>
+
+</html>
